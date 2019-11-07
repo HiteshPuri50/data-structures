@@ -217,9 +217,10 @@ void search_item(int value)
 
 void print_linked_list()
 {
+    node *myList;
     printf("\nYour full linked list is\n");
 
-    node *myList;
+    
     myList = head;
 
     while(myList!=NULL)
